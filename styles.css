@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app {
+    margin: 0 auto;
+}
+
+#title {
+    text-align: center;
+}
+
+#newTaskForm :first-child {
+    margin-inline-end: 1vw;
+}
+
+.task-edit {
+    margin: 1vw 0;
+}
+
+.task-label {
+    margin: 1vw 0;
+}
+
+.task > button {
+    margin-inline-end: 1vw;
+}
+
+/* #deleteButton {
+    margin-top: 1vw;
+} */
+
+#menu {
+    display: flex;
+}
+
+#menu > * {
+    margin-inline-end: 1vw;
+}
